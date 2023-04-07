@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.Box {
+  background-color: "#f1f2f3";
+  padding: "56px 0px";
+}
+
+.Typography {
+  font-size: 40px !important;
+  font-weight: 500 !important;
+  padding: 57px 0;
+}

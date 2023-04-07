@@ -1,0 +1,89 @@
+$primary-color: #1890ff;
+
+.container {
+  background: #f5f5f5;
+  border-radius: 4px;
+  padding: 15px;
+  margin-left: 56px;
+  text-align: left;
+
+  h6 {
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+
+  h5 {
+    font-size: 35px;
+    font-weight: 500;
+  }
+
+  .options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    gap: 12px;
+
+    .MuiOutlinedInput-root {
+      width: 205px;
+
+      .MuiSelect-select {
+        padding: 10.5px 14px;
+      }
+    }
+  }
+
+  button {
+    text-transform: capitalize;
+  }
+}
+
+.header {
+  border-bottom: 1px solid #b2b2b2;
+  padding-bottom: 28px;
+  margin-bottom: 28px;
+}
+
+.score {
+  font-size: 35px;
+  padding-bottom: 20px;
+  font-weight: 700;
+
+  .score-value {
+    color: $primary-color;
+  }
+}
+
+.modalBox {
+  .MuiDialog-paper {
+    border-radius: 20px;
+  }
+
+  h6 {
+    font-weight: 600;
+    padding-bottom: 15px;
+  }
+
+  .MuiDialogContent-root {
+    padding: 20px 35px;
+  }
+
+  p {
+    font-size: 17px !important;
+    padding-bottom: 10px;
+  }
+
+  .MuiDialogActions-root {
+    justify-content: center;
+
+    button {
+      margin-bottom: 20px;
+      text-transform: capitalize;
+      font-weight: 600;
+    }
+  }
+}
+
+.form-control {
+  margin: 1;
+  min-width: 120
+}
